@@ -1,11 +1,11 @@
-description: 'Split a YAML file using indent as separator criteria'
+description: 'Egy YAML fájl felosztása bekezdést használva mint elválasztási kritérium'
 arguments:
-    yaml-file: 'Path of YAML file to be splitted'
+    yaml-file: 'A felosztásra kerülő YAML fájl útvonala'
 options:
-    indent-level: 'Split YAML file using a specific indent level'
-    exclude-parents-key: 'Exclude parents key in file name generated'
-    starting-key: 'YAML Key from where start split useful to extract partial elements'
+    indent-level: 'YAML fájl felosztása bizonyos bekezdés szint alapján'
+    exclude-parents-key: 'Szűlő kulcsok kizárása a generált fájl nevéből'
+    starting-key: 'YAML kulcs ahonnan a részleges elemensek kicsomagolása kerdődik'
 messages:
-    generating-split: 'Generating new files'
-    split-generated: 'File %s was generated'
-    invalid-key: 'Provided key as stating YAML key wasn''t found, combine with indent-level 0 to extract values'
+    generating-split: 'Új fájlok generálása'
+    split-generated: 'Generálva lett a %s fájl'
+    invalid-key: 'A biztosított kulcs mint kulcsfontosságú YAML kulcs nem volt megtalálva, kérem egyesitse a 0 szintű bekezdéssel az értékek kicsomagolásához'
